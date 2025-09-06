@@ -1,7 +1,7 @@
 pipeline {
 agent any
 stages {
-stage('Checkout') {
+stage('Checkoutt') {
 steps {
 git 'https://github.com/pushkar31/nginx-html.git'
 }
